@@ -47,10 +47,10 @@ const approuter = createBrowserRouter([
         path: "/:resId",
         element: <RestaurentMenu />,
       },
-      {
-        path: "/cart",
-        element: <Cart />,
-      },
+      // {
+      //   path: "/cart",
+      //   element: <Cart />,
+      // },
     ],
   },
 ]);

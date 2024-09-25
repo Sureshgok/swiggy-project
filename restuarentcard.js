@@ -7,7 +7,7 @@ const RestuarentCard = (props) => {
 
   return (
     <div className="flex w-52  h-16">
-      <div className="p-2 m-2 bg-gray-200 border border-black rounded-xl w-[400px]">
+      <div className="p-2 m-2 bg-gray-200 border border-black rounded-xl w-[100px]">
         <img
           className="rounded-xl w-full h-40 object-cover"
           src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${cloudinaryImageId}`}
